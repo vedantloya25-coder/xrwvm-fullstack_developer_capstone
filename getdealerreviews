@@ -1,0 +1,26 @@
+curl http://localhost:3030/fetchReviews/dealer/1
+
+[
+  {
+    "id": 1,
+    "name": "Berkly Shepley",
+    "dealership": 1,
+    "review": "Total grid-enabled service-desk. Great customer assistance and friendly staff!",
+    "purchase": true,
+    "purchase_date": "07/11/2023",
+    "car_make": "Audi",
+    "car_model": "A6",
+    "car_year": 2010
+  },
+  {
+    "id": 2,
+    "name": "Gwenora Suzan",
+    "dealership": 1,
+    "review": "Assurance for car maintenance was top tier. Highly satisfied with my purchase.",
+    "purchase": true,
+    "purchase_date": "02/19/2023",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2021
+  }
+]

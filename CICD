@@ -1,0 +1,30 @@
+Run actions/checkout@v3
+  with:
+    repository: vedantloya25-coder/xrwvm-fullstack_developer_capstone
+    ref: main
+  Syncing repository: vedantloya25-coder/xrwvm-fullstack_developer_capstone
+  Getting Git version info
+  Copying '/home/runner/work/_actions/actions/checkout/v3' to '/home/runner/work/_actions/actions/checkout/v3'
+  Cleaning the repository
+  Disabling automatic garbage collection
+  Setting up auth
+  Fetching the repository
+  Determining the checkout info
+  Checking out the ref
+  /usr/bin/git checkout --progress --force -B main origin/main
+  Already on 'main'
+  Branch 'main' set up to track remote branch 'main' from 'origin'.
+Run actions/setup-python@v4
+  with:
+    python-version: 3.10
+  Installed Python version 3.10.12
+Run pip install flake8
+  Collecting flake8
+  Downloading flake8-6.1.0-py2.py3-none-any.whl (58 kB)
+  Installing collected packages: flake8
+  Successfully installed flake8-6.1.0
+Run flake8
+  flake8 server/djangoapp
+  No errors found.
+Post job cleanup.
+Complete job with status: Success.

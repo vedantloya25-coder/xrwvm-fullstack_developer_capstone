@@ -1,0 +1,69 @@
+curl http://127.0.0.1:8000/djangoapp/get_cars
+
+{
+  "CarModels": [
+    {
+      "id": 1,
+      "name": "Corolla",
+      "type": "Sedan",
+      "year": 2023,
+      "car_make": "Toyota"
+    },
+    {
+      "id": 2,
+      "name": "Camry",
+      "type": "Sedan",
+      "year": 2022,
+      "car_make": "Toyota"
+    },
+    {
+      "id": 3,
+      "name": "RAV4",
+      "type": "SUV",
+      "year": 2023,
+      "car_make": "Toyota"
+    },
+    {
+      "id": 4,
+      "name": "Civic",
+      "type": "Sedan",
+      "year": 2023,
+      "car_make": "Honda"
+    },
+    {
+      "id": 5,
+      "name": "CR-V",
+      "type": "SUV",
+      "year": 2022,
+      "car_make": "Honda"
+    },
+    {
+      "id": 6,
+      "name": "F-150",
+      "type": "WAGON",
+      "year": 2021,
+      "car_make": "Ford"
+    },
+    {
+      "id": 7,
+      "name": "Explorer",
+      "type": "SUV",
+      "year": 2023,
+      "car_make": "Ford"
+    },
+    {
+      "id": 8,
+      "name": "A4",
+      "type": "Sedan",
+      "year": 2022,
+      "car_make": "Audi"
+    },
+    {
+      "id": 9,
+      "name": "Q5",
+      "type": "SUV",
+      "year": 2023,
+      "car_make": "Audi"
+    }
+  ]
+}

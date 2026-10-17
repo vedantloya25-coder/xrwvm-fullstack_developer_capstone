@@ -1,0 +1,16 @@
+curl http://localhost:3030/fetchDealers/Kansas
+
+[
+  {
+    "id": 5,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "2180 Memorial Drive",
+    "zip": "66606",
+    "lat": 39.0438,
+    "long": -95.6784,
+    "short_name": "Cardify",
+    "full_name": "Cardify Car Dealership"
+  }
+]

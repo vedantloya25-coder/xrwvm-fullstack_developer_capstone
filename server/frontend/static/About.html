@@ -1,7 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="UTF-8">
+  <title>About Us - Dealerships</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
@@ -12,10 +19,10 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/about">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
@@ -25,44 +32,51 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+  <div class="card" style="width: 80%; margin: auto; margin-top: 3%; padding: 20px; border-radius: 10px;">
+    <div class="banner text-center" name="about-header" style="margin-bottom: 25px;">
+      <h1 class="display-6 fw-bold" style="color: rgb(97, 64, 128);">Welcome to Best Car Dealerships</h1>
+      <p class="lead text-muted" style="max-width: 850px; margin: auto;">
+        Welcome to Dealerships, your national partner in premium car retailing across the United States. 
+        We are committed to delivering exceptional customer service, certified multi-point vehicle inspections, 
+        and transparent car buying and selling experiences.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
+      <!-- Person 1 -->
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80" alt="Alex Morgan" style="height: 240px; object-fit: cover; width: 100%;">
+        <div class="card-body text-center">
+          <p class="title" style="margin: 10px 0; border-radius: 5px;">Alex Morgan</p>
+          <p class="fw-bold text-secondary mb-1">Chief Executive Officer</p>
+          <p class="card-text text-muted small">Alex leads our national branches with over 15 years in automotive operations and customer satisfaction.</p>
+          <p class="small text-primary"><a href="mailto:alex.morgan@dealership.com">alex.morgan@dealership.com</a></p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <!-- Person 2 -->
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Sarah Jenkins" style="height: 240px; object-fit: cover; width: 100%;">
+        <div class="card-body text-center">
+          <p class="title" style="margin: 10px 0; border-radius: 5px;">Sarah Jenkins</p>
+          <p class="fw-bold text-secondary mb-1">Director of Sales & Finance</p>
+          <p class="card-text text-muted small">Sarah coordinates nationwide sales pipelines, competitive financing packages, and certified warranties.</p>
+          <p class="small text-primary"><a href="mailto:sarah.jenkins@dealership.com">sarah.jenkins@dealership.com</a></p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <!-- Person 3 -->
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80" alt="Marcus Vance" style="height: 240px; object-fit: cover; width: 100%;">
+        <div class="card-body text-center">
+          <p class="title" style="margin: 10px 0; border-radius: 5px;">Marcus Vance</p>
+          <p class="fw-bold text-secondary mb-1">Chief Master Technician</p>
+          <p class="card-text text-muted small">ASE-certified lead engineer directing safety standards, powertrain diagnostics, and maintenance protocols.</p>
+          <p class="small text-primary"><a href="mailto:marcus.vance@dealership.com">marcus.vance@dealership.com</a></p>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
+</body>
 </html>

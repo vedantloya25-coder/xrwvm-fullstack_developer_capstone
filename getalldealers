@@ -1,0 +1,64 @@
+curl http://localhost:3030/fetchDealers
+
+[
+  {
+    "id": 1,
+    "city": "El Paso",
+    "state": "Texas",
+    "st": "TX",
+    "address": "3 Nova Court",
+    "zip": "79915",
+    "lat": 31.6948,
+    "long": -106.3,
+    "short_name": "Holdlamis",
+    "full_name": "Holdlamis Car Dealership"
+  },
+  {
+    "id": 2,
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "st": "MN",
+    "address": "63373 Mockingbird Trail",
+    "zip": "55432",
+    "lat": 45.0792,
+    "long": -93.2272,
+    "short_name": "Temp",
+    "full_name": "Temp Car Dealership"
+  },
+  {
+    "id": 3,
+    "city": "Birmingham",
+    "state": "Alabama",
+    "st": "AL",
+    "address": "9447 Ohio Point",
+    "zip": "35253",
+    "lat": 33.5446,
+    "long": -86.7626,
+    "short_name": "Sub-Ex",
+    "full_name": "Sub-Ex Car Dealership"
+  },
+  {
+    "id": 4,
+    "city": "Dallas",
+    "state": "Texas",
+    "st": "TX",
+    "address": "7110 Hudson Avenue",
+    "zip": "75240",
+    "lat": 32.7831,
+    "long": -96.8067,
+    "short_name": "Solarbreeze",
+    "full_name": "Solarbreeze Car Dealership"
+  },
+  {
+    "id": 5,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "2180 Memorial Drive",
+    "zip": "66606",
+    "lat": 39.0438,
+    "long": -95.6784,
+    "short_name": "Cardify",
+    "full_name": "Cardify Car Dealership"
+  }
+]
